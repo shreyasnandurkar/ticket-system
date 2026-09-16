@@ -6,12 +6,12 @@ A REST API in Go where users register, log in, create tickets, and view or updat
 
 | | URL |
 |---|---|
-| Base URL | `https://<your-deployed-url>` |
-| Health check | `https://<your-deployed-url>/health` |
+| Base URL | `https://ticket-system-afd9.onrender.com` |
+| Health check | `https://ticket-system-afd9.onrender.com/health/health` |
 
 ## Tech Stack
 
-- Go 1.22 (standard library `net/http`)
+- Go
 - JWT authentication (HS256)
 - bcrypt password hashing
 - In-memory storage
